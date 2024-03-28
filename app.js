@@ -30,7 +30,13 @@ squares.forEach(square => {
 
 function moveMole() {
     let timerId = null;
-    timerId = setInterval(randomSquare, 500)
+    timerId = setInterval(randomSquare, 1000)
 }
 
 moveMole();
+
+function forCountdown() {
+
+}
+
+let countDownTimerId = setInterval(countdown, 1000)

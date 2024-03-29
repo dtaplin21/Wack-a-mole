@@ -12,5 +12,6 @@
 }
 
 .mole {
-    background-color: blue;
+    background-image: url(images/hedgehog.jpg);
+    background-size: cover;
 }
